@@ -25,7 +25,6 @@ lookUpForMessage = (msg) ->
     return msg.send err.message if err
     message = pickOne(body)
     message = message.txt.trim()
-    console.log(message)
     msg.send "*#{message}*"
 
 

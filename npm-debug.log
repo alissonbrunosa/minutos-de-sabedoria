@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/alissonsantos/dev/jscode/minutos-de-sabedoria',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/alissonsantos/.npm correctMkdir not in flight; initializing
+10 info lifecycle hubot-minutos-de-sabedoria@0.0.1~prepublish: hubot-minutos-de-sabedoria@0.0.1
+11 silly lifecycle hubot-minutos-de-sabedoria@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package.tgz',
+12 verbose tar pack   '/Users/alissonsantos/dev/jscode/minutos-de-sabedoria' ]
+13 verbose tarball /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package.tgz
+14 verbose folder /Users/alissonsantos/dev/jscode/minutos-de-sabedoria
+15 verbose addLocalTarball adding from inside cache /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package.tgz
+16 verbose correctMkdir /Users/alissonsantos/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd hubot-minutos-de-sabedoria@0.0.1
+18 verbose afterAdd /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/alissonsantos/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package/package.json written
+21 silly publish { name: 'hubot-minutos-de-sabedoria',
+21 silly publish   description: 'A simple bot that gives to you an inspirational message',
+21 silly publish   version: '0.0.1',
+21 silly publish   author: { name: 'Alisson Bruno', email: 'alissonbruno.sa@gmail.com' },
+21 silly publish   license: 'MIT',
+21 silly publish   keywords: [ 'minutos', 'sabedoria', 'hubot' ],
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git://github.com/hubot-scripts/hubot-minutos-de-sabedoria.git' },
+21 silly publish   bugs: { url: 'https://github.com/hubot-scripts/hubot-minutos-de-sabedoria/issues' },
+21 silly publish   dependencies: {},
+21 silly publish   peerDependencies: { hubot: '2.x' },
+21 silly publish   devDependencies:
+21 silly publish    { chai: '^2.1.1',
+21 silly publish      'coffee-script': '1.6.3',
+21 silly publish      grunt: '^0.4.5',
+21 silly publish      'grunt-cli': '^0.1.13',
+21 silly publish      'grunt-contrib-watch': '~0.6.1',
+21 silly publish      'grunt-mocha-test': '~0.12.7',
+21 silly publish      'grunt-release': '~0.11.0',
+21 silly publish      hubot: '2.x',
+21 silly publish      'hubot-test-helper': '^1.3.0',
+21 silly publish      matchdep: '~0.3.0',
+21 silly publish      mocha: '^2.1.0',
+21 silly publish      nock: '^9.0.11',
+21 silly publish      sinon: '^1.13.0',
+21 silly publish      'sinon-chai': '^2.7.0' },
+21 silly publish   main: 'index.coffee',
+21 silly publish   scripts: { test: 'grunt test' },
+21 silly publish   readme: '# hubot-minutos-de-sabedoria\n\nA simple bot that gives to you an inspirational message\n\nSee [`src/minutos-de-sabedoria.coffee`](src/minutos-de-sabedoria.coffee) for full documentation.\n\n## Installation\n\nIn hubot project repo, run:\n\n`npm install hubot-minutos-de-sabedoria --save`\n\nThen add **hubot-minutos-de-sabedoria** to your `external-scripts.json`:\n\n```json\n[\n  "hubot-minutos-de-sabedoria"\n]\n```\n\n## Sample Interaction\n\n```\nuser1>> hubot teach me\nhubot>> Tenha dinamismo em sua vida! Não fique aí parado, de braços cruzados. Não são as idéias bonitas que valem. São as ações práticas!Os pés que não caminham criam raízes. A vida é luta! Não espere que os necessitados o venham procurar: vá visitá-los em seus tugúrios. Leve uma palavra de conforto, um sorriso de compreensão, um pensamento de ternura.\n```\n\n## NPM Module\n\nhttps://www.npmjs.com/package/hubot-minutos-de-sabedoria\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '3eff0256b8c130898be3925db720e72d49ad1320',
+21 silly publish   homepage: 'https://github.com/hubot-scripts/hubot-minutos-de-sabedoria#readme',
+21 silly publish   _id: 'hubot-minutos-de-sabedoria@0.0.1',
+21 silly publish   _shasum: 'd74a1fc90e559dd6800fc8fe8cab151991d8b24e',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name hubot-minutos-de-sabedoria
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'hubot-minutos-de-sabedoria',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'hubot-minutos-de-sabedoria',
+26 silly mapToRegistry   name: 'hubot-minutos-de-sabedoria',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/hubot-minutos-de-sabedoria
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/alissonsantos/.npm/hubot-minutos-de-sabedoria/0.0.1/package.tgz
+30 verbose request uri https://registry.npmjs.org/hubot-minutos-de-sabedoria
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:48:14 PM
+33 verbose request using bearer token for auth
+34 verbose request id a7f3d5b59c273ef8
+35 http request PUT https://registry.npmjs.org/hubot-minutos-de-sabedoria
+36 http 403 https://registry.npmjs.org/hubot-minutos-de-sabedoria
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 10 Apr 2017 01:48:15 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1491788895.612243,VS0,VE818',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/alissonsantos/.npm/registry.npmjs.org/hubot-minutos-de-sabedoria on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : hubot-minutos-de-sabedoria
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid hubot-minutos-de-sabedoria
+43 verbose cwd /Users/alissonsantos/dev/jscode/minutos-de-sabedoria
+44 error Darwin 16.5.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.10.0
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.1." : hubot-minutos-de-sabedoria
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
