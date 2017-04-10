@@ -13,7 +13,7 @@
 module.exports = (robot) ->
   robot.respond /(teach|inspire) me/, (res) ->
     message = lookUpForMessage
-    res.send "*#{message.txt.trim()}*"
+    res.send "*#{message}*"
 
 
 lookUpForMessage = () ->

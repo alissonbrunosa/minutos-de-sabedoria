@@ -1,16 +1,19 @@
-chai = require 'chai'
-sinon = require 'sinon'
-chai.use require 'sinon-chai'
-
-expect = chai.expect
+Helper = require('hubot-test-helper')
+expect = require('chai').expect
+helper = new Helper('../src/minutos-de-sabedoria.coffee')
 
 describe 'minutos-de-sabedoria', ->
+  room = null
+
   beforeEach ->
-    @robot =
-      respond: sinon.spy()
-      hear: sinon.spy()
-    require('../src/minutos-de-sabedoria')(@robot)
+    room = helper.createRoom()
 
+  afterEach ->
+    room.destroy()
 
-  it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/(teach|inspire) me/)
+  context 'user asks hubot for a good message', ->
+    beforeEach ->
+      room.user.say 'Aisson', '@hubot teach me'
+
+    it 'should receive a message', ->
+      expect(room.messages.length).to.eql 2
